@@ -32,7 +32,6 @@ namespace DataBinding.ViewModels
                 };
 
                 Clients.Add(client);
-                OnPropertyChanged(nameof(Clients));
             });
 
 
